@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timetable by Grade</title>
+  <style>
+    body { font-family: Arial; background: #e8f5e9; padding: 20px; }
+    h2, h3 { color: #2e7d32; }
+    .grade-section { margin-bottom: 30px; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+    th { background: #43a047; color: white; }
+    tr:nth-child(even) { background-color: #f1f8e9; }
+  </style>
+</head>
+<body>
+  <nav style="margin-bottom: 20px;">
+      <a href="/timetable">Weekly Timetable</a> |
+      <a href="/timetable-day">By Day</a> |
+      <a href="/timetable-grade">By Grade</a> |
+      <a href="/timetable-coach">By Coach</a>
+  </nav>
+  <h2>Lessons by Grade</h2>
+
+  <div class="grade-section">
+    <h3>Grade 1</h3>
+    <table><tr><th>Day</th><th>Time</th><th>Coach</th></tr>
+    <tr><td>Monday</td><td>4-5 PM</td><td>Coach A</td></tr></table>
+  </div>
+
+  <div class="grade-section">
+    <h3>Grade 2</h3>
+    <table><tr><th>Day</th><th>Time</th><th>Coach</th></tr>
+    <tr><td>Friday</td><td>6-7 PM</td><td>Coach C</td></tr></table>
+  </div>
+
+  <div class="grade-section">
+    <h3>Grade Progression Rules</h3>
+    <p>To move to the next grade, a student must complete 10 lessons and pass a basic skill test assessed by the coach.</p>
+  </div>
+</body>
+</html>
