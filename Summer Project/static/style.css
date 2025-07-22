@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  margin: 20px;
+  padding: 0;
+}
+
+header {
+  background-color: #0288d1;
+  color: white;
+  padding: 10px 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+form input, form select, form textarea, form button {
+  margin: 8px 0;
+  padding: 8px;
+  width: 300px;
+  display: block;
+}
+
+button {
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

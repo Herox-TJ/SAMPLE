@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timetable by Coach</title>
+  <style>
+    body { font-family: Arial; background: #fce4ec; padding: 20px; }
+    h2, h3 { color: #880e4f; }
+    .coach-section { margin-bottom: 30px; }
+    table { width: 100%; border-collapse: collapse; background: white; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+    th { background: #c2185b; color: white; }
+    tr:nth-child(even) { background-color: #f8bbd0; }
+  </style>
+</head>
+<body>
+  <nav style="margin-bottom: 20px;">
+      <a href="/timetable">Weekly Timetable</a> |
+      <a href="/timetable-day">By Day</a> |
+      <a href="/timetable-grade">By Grade</a> |
+      <a href="/timetable-coach">By Coach</a>
+  </nav>
+  <h2>Lessons by Coach</h2>
+
+  <div class="coach-section">
+    <h3>Coach A</h3>
+    <p><strong>Specialty:</strong> Beginners, Grades 1–2<br><strong>Rating:</strong> ⭐⭐⭐⭐☆</p>
+    <table><tr><th>Day</th><th>Time</th><th>Grade</th></tr>
+    <tr><td>Monday</td><td>4-5 PM</td><td>1</td></tr></table>
+  </div>
+
+  <div class="coach-section">
+    <h3>Coach B</h3>
+    <p><strong>Specialty:</strong> Advanced swimmers<br><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
+    <table><tr><th>Day</th><th>Time</th><th>Grade</th></tr>
+    <tr><td>Friday</td><td>5-6 PM</td><td>3</td></tr></table>
+  </div>
+</body>
+</html>
